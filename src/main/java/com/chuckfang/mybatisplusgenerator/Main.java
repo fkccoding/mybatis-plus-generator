@@ -16,11 +16,11 @@ public class Main {
 
         CodeGenerator codeGenerator = builder
                // 数据库连接
-                .dbUrl("jdbc:mysql://192.168.1.41:3306/data_app?useSSL=false")
+                .dbUrl("jdbc:mysql://192.168.1.41:3306/test?useSSL=false")
                // 账户
                 .userName("root")
                // 密码
-                .password("Moxi123#")
+                .password("123456")
                 // 生成类位置
                 .dir(mainDir + "java")
                 // 生成xml 位置
